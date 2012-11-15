@@ -1,0 +1,6 @@
+	<ParaViewFilters>
+        <Category name="Extensions" menu_label="&amp;Extensions">
+        <!-- adds a new category and then adds our filter to it -->
+        <Filter name="MyElevationFilter" />
+        </Category>
+    </ParaViewFilters>
