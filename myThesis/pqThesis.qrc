@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/pqThesis" >
+        <file>pqThesis.ui</file>
+    </qresource>
+</RCC>
