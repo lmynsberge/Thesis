@@ -1,0 +1,194 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created: Wed Dec 26 16:45:48 2012
+**      by: Qt User Interface Compiler version 4.8.1
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtGui/QAction>
+#include <QtGui/QApplication>
+#include <QtGui/QButtonGroup>
+#include <QtGui/QComboBox>
+#include <QtGui/QHeaderView>
+#include <QtGui/QLabel>
+#include <QtGui/QLineEdit>
+#include <QtGui/QMainWindow>
+#include <QtGui/QMenuBar>
+#include <QtGui/QPlainTextEdit>
+#include <QtGui/QPushButton>
+#include <QtGui/QRadioButton>
+#include <QtGui/QStatusBar>
+#include <QtGui/QTabWidget>
+#include <QtGui/QToolBar>
+#include <QtGui/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_MainWindow
+{
+public:
+    QWidget *centralWidget;
+    QTabWidget *myThesis;
+    QWidget *Materials;
+    QPushButton *matAdd;
+    QComboBox *matList;
+    QLineEdit *matDensVal;
+    QLabel *matDensTypeLabel;
+    QLabel *matDensValLabel;
+    QRadioButton *matDensAtom;
+    QRadioButton *matDensMass;
+    QWidget *Tallies;
+    QComboBox *tallyList;
+    QPlainTextEdit *tallyCommentValue;
+    QLineEdit *tallyMultiValue;
+    QPushButton *tallyAdd;
+    QLabel *tallyMultiLabel;
+    QLabel *tallyCommentLabel;
+    QWidget *Boundaries;
+    QComboBox *boundList;
+    QPushButton *boundAdd;
+    QPushButton *pushButton;
+    QMenuBar *menuBar;
+    QToolBar *mainToolBar;
+    QStatusBar *statusBar;
+
+    void setupUi(QMainWindow *MainWindow)
+    {
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->resize(528, 446);
+        centralWidget = new QWidget(MainWindow);
+        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
+        myThesis = new QTabWidget(centralWidget);
+        myThesis->setObjectName(QString::fromUtf8("myThesis"));
+        myThesis->setGeometry(QRect(20, 10, 241, 301));
+        Materials = new QWidget();
+        Materials->setObjectName(QString::fromUtf8("Materials"));
+        matAdd = new QPushButton(Materials);
+        matAdd->setObjectName(QString::fromUtf8("matAdd"));
+        matAdd->setGeometry(QRect(80, 200, 75, 23));
+        matList = new QComboBox(Materials);
+        matList->setObjectName(QString::fromUtf8("matList"));
+        matList->setGeometry(QRect(20, 10, 191, 21));
+        matDensVal = new QLineEdit(Materials);
+        matDensVal->setObjectName(QString::fromUtf8("matDensVal"));
+        matDensVal->setGeometry(QRect(20, 130, 113, 20));
+        matDensTypeLabel = new QLabel(Materials);
+        matDensTypeLabel->setObjectName(QString::fromUtf8("matDensTypeLabel"));
+        matDensTypeLabel->setGeometry(QRect(20, 40, 101, 16));
+        matDensValLabel = new QLabel(Materials);
+        matDensValLabel->setObjectName(QString::fromUtf8("matDensValLabel"));
+        matDensValLabel->setGeometry(QRect(20, 110, 101, 16));
+        matDensAtom = new QRadioButton(Materials);
+        matDensAtom->setObjectName(QString::fromUtf8("matDensAtom"));
+        matDensAtom->setGeometry(QRect(20, 60, 91, 17));
+        matDensMass = new QRadioButton(Materials);
+        matDensMass->setObjectName(QString::fromUtf8("matDensMass"));
+        matDensMass->setGeometry(QRect(20, 80, 91, 17));
+        myThesis->addTab(Materials, QString());
+        Tallies = new QWidget();
+        Tallies->setObjectName(QString::fromUtf8("Tallies"));
+        tallyList = new QComboBox(Tallies);
+        tallyList->setObjectName(QString::fromUtf8("tallyList"));
+        tallyList->setGeometry(QRect(30, 10, 191, 21));
+        tallyCommentValue = new QPlainTextEdit(Tallies);
+        tallyCommentValue->setObjectName(QString::fromUtf8("tallyCommentValue"));
+        tallyCommentValue->setGeometry(QRect(30, 70, 181, 71));
+        tallyMultiValue = new QLineEdit(Tallies);
+        tallyMultiValue->setObjectName(QString::fromUtf8("tallyMultiValue"));
+        tallyMultiValue->setGeometry(QRect(30, 180, 113, 20));
+        tallyAdd = new QPushButton(Tallies);
+        tallyAdd->setObjectName(QString::fromUtf8("tallyAdd"));
+        tallyAdd->setGeometry(QRect(80, 240, 75, 23));
+        tallyMultiLabel = new QLabel(Tallies);
+        tallyMultiLabel->setObjectName(QString::fromUtf8("tallyMultiLabel"));
+        tallyMultiLabel->setGeometry(QRect(30, 150, 46, 13));
+        tallyCommentLabel = new QLabel(Tallies);
+        tallyCommentLabel->setObjectName(QString::fromUtf8("tallyCommentLabel"));
+        tallyCommentLabel->setGeometry(QRect(30, 40, 46, 13));
+        myThesis->addTab(Tallies, QString());
+        Boundaries = new QWidget();
+        Boundaries->setObjectName(QString::fromUtf8("Boundaries"));
+        boundList = new QComboBox(Boundaries);
+        boundList->setObjectName(QString::fromUtf8("boundList"));
+        boundList->setGeometry(QRect(20, 20, 191, 21));
+        boundAdd = new QPushButton(Boundaries);
+        boundAdd->setObjectName(QString::fromUtf8("boundAdd"));
+        boundAdd->setGeometry(QRect(80, 210, 75, 23));
+        myThesis->addTab(Boundaries, QString());
+        pushButton = new QPushButton(centralWidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(100, 320, 75, 23));
+        MainWindow->setCentralWidget(centralWidget);
+        menuBar = new QMenuBar(MainWindow);
+        menuBar->setObjectName(QString::fromUtf8("menuBar"));
+        menuBar->setGeometry(QRect(0, 0, 528, 21));
+        MainWindow->setMenuBar(menuBar);
+        mainToolBar = new QToolBar(MainWindow);
+        mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
+        MainWindow->addToolBar(Qt::TopToolBarArea, mainToolBar);
+        statusBar = new QStatusBar(MainWindow);
+        statusBar->setObjectName(QString::fromUtf8("statusBar"));
+        MainWindow->setStatusBar(statusBar);
+
+        retranslateUi(MainWindow);
+        QObject::connect(pushButton, SIGNAL(clicked()), MainWindow, SLOT(close()));
+
+        myThesis->setCurrentIndex(0);
+
+
+        QMetaObject::connectSlotsByName(MainWindow);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *MainWindow)
+    {
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0, QApplication::UnicodeUTF8));
+        matAdd->setText(QApplication::translate("MainWindow", "Add", 0, QApplication::UnicodeUTF8));
+        matList->clear();
+        matList->insertItems(0, QStringList()
+         << QApplication::translate("MainWindow", "Steel", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("MainWindow", "New...", 0, QApplication::UnicodeUTF8)
+        );
+        matDensTypeLabel->setText(QApplication::translate("MainWindow", "Type of Density", 0, QApplication::UnicodeUTF8));
+        matDensValLabel->setText(QApplication::translate("MainWindow", "Value of Density", 0, QApplication::UnicodeUTF8));
+        matDensAtom->setText(QApplication::translate("MainWindow", "Atom Density", 0, QApplication::UnicodeUTF8));
+        matDensMass->setText(QApplication::translate("MainWindow", "Mass Density", 0, QApplication::UnicodeUTF8));
+        myThesis->setTabText(myThesis->indexOf(Materials), QApplication::translate("MainWindow", "Materials", 0, QApplication::UnicodeUTF8));
+        tallyList->clear();
+        tallyList->insertItems(0, QStringList()
+         << QApplication::translate("MainWindow", "Surface", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("MainWindow", "Flux", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("MainWindow", "Heating", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("MainWindow", "New...", 0, QApplication::UnicodeUTF8)
+        );
+        tallyAdd->setText(QApplication::translate("MainWindow", "Add", 0, QApplication::UnicodeUTF8));
+        tallyMultiLabel->setText(QApplication::translate("MainWindow", "Multiplier", 0, QApplication::UnicodeUTF8));
+        tallyCommentLabel->setText(QApplication::translate("MainWindow", "Comment", 0, QApplication::UnicodeUTF8));
+        myThesis->setTabText(myThesis->indexOf(Tallies), QApplication::translate("MainWindow", "Tallies", 0, QApplication::UnicodeUTF8));
+        boundList->clear();
+        boundList->insertItems(0, QStringList()
+         << QApplication::translate("MainWindow", "Reflecting", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("MainWindow", "Graveyard", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("MainWindow", "White", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("MainWindow", "New...", 0, QApplication::UnicodeUTF8)
+        );
+        boundAdd->setText(QApplication::translate("MainWindow", "Add", 0, QApplication::UnicodeUTF8));
+        myThesis->setTabText(myThesis->indexOf(Boundaries), QApplication::translate("MainWindow", "Boundaries", 0, QApplication::UnicodeUTF8));
+        pushButton->setText(QApplication::translate("MainWindow", "Close", 0, QApplication::UnicodeUTF8));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class MainWindow: public Ui_MainWindow {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H
