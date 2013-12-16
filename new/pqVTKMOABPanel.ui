@@ -35,6 +35,80 @@
      <item row="0" column="1">
       <widget class="pqOutputPortComboBox" name="currentObject"/>
      </item>
+	 <item row="1" column="0">
+	  <widget class="QLabel" name="selTypeLabel">
+	   <property name="text">
+	    <string>Selection Type:</string>
+	   </property>
+	  </widget>
+	 </item>
+	 <item row="1" column="1">
+	  <widget class="QComboBox" name="selTypeCB"/>
+	 </item>
+	 <item row="2" column="0" colspan="2">
+	  <widget class="QTreeWidget" name="selTree">
+	  </widget>
+	 </item>
+	 <item row="3" column="0" colspan="2">
+	  <widget class="QCheckBox" name="addToTreeCheckbox">
+	   <property name="enabled">
+	    <bool>true</bool>
+	   </property>
+	   <property name="text">
+	    <string>Add current tag to selection tree hierarchy</string>
+	   </property>
+	  </widget>
+	 </item>
+	 <item row="4" column="0">
+	  <widget class="QLabel" name="tagKeyLabel">
+	   <property name="text">
+	    <string>Tag Key:</string>
+	   </property>
+	  </widget>
+	 </item>
+	 <item row="4" column="1">
+	  <widget class="QComboBox" name="tagKeyCB"/>
+	 </item>
+	 <item row="5" column="0">
+	  <widget class="QLabel" name="tagValLabel">
+	   <property name="text">
+	    <string>Tag Value:</string>
+	   </property>
+	  </widget>
+	 </item>
+	 <item row="5" column="1">
+	  <widget class="QLineEdit" name="tagValLE"/>
+	 </item>
+	 <item row="6" column="0">
+	  <widget class="QPushButton" name="applyPB">
+	  <property name="enabled">
+	   <bool>false</bool>
+	  </property>
+	   <property name="text">
+	    <string>Apply</string>
+	   </property>
+	  </widget>
+	 </item>
+	 <item row="6" column="1">
+	  <widget class="QPushButton" name="deletePB">
+	  <property name="enabled">
+	   <bool>false</bool>
+	  </property>
+	   <property name="text">
+	    <string>Delete</string>
+	   </property>
+	  </widget>
+	 </item>
+	 <item row="8" column="0" colspan="2">
+	  <widget class="QPushButton" name="writePB">
+	  <property name="enabled">
+	   <bool>true</bool>
+	  </property>
+	   <property name="text">
+	    <string>Write MOAB File</string>
+	   </property>
+	  </widget>
+	 </item>
 	</layout>
    </item>
   </layout>
